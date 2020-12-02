@@ -1,6 +1,6 @@
+
 language: python
-jobs:
-  include:
-  - name: "3.5 Unit Test"
-    python: "3.5"
-  script: ./testCmmdc.py
+python:
+  - "3.8"
+ script:
+    - pytest
