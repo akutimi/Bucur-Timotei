@@ -1,10 +1,3 @@
-
 language: python
-
-os: windows
-
-python:
-  - "3.2"
-
 script:
-  - testCmmdc
+    - testCmmdc
